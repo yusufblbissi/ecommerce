@@ -1,0 +1,51 @@
+.product {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin: 4rem 1rem;
+}
+h1{
+    text-align: center;
+}
+.btn-card {
+    padding: 0.1rem 0.2rem;
+    border-radius: 0.4rem;
+    border: none;
+    background: #3D8DAE;
+    color: white;
+    
+}
+.search1 {
+    width: 60%;
+    margin: 1rem auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background: #dcdcdc;
+    
+    border-radius: 1em;
+}
+
+.search {
+    width: 80%;
+    margin: 1rem auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background: #ffffff;
+    border-radius: 0.3rem;
+    border: solid #DF8453 0.2em;
+}
+
+
+select{
+    border: solid #DF8453 0.2em;
+
+}
+.containers{
+   margin-top: 8rem;
+    
+}

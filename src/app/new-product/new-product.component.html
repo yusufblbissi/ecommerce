@@ -1,0 +1,11 @@
+<h1 >New Product</h1>
+
+<div class="product" *ngIf="!loading">
+  <div *ngFor="let item of products" >
+    <app-cart-product [data]="item"></app-cart-product>
+  </div>
+ 
+</div>
+<div style="display: flex; justify-content: center" *ngIf="loading">
+  <app-spinner></app-spinner>
+</div>

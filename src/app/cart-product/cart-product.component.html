@@ -1,0 +1,12 @@
+<div class="card" routerLink="/single-product/{{ data.id }}">
+  <img [src]="data.images[0].thumbnail" alt="looding..." />
+  <h4 class="title">
+    {{ data.title }}
+  </h4>
+  <div class="price">
+    <span style="font-size: 1.5rem;">Price:</span>
+    <del *ngIf="data.discounted_price > 0">{{ data.original_price }}$</del>
+    <span style="color: brown; margin-left: 0.2rem">{{ data.price }}$</span>
+  </div>
+  <h4>quantity {{ data.quantity }}</h4>
+</div>
